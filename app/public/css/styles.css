@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Quattrocento+Sans');
+
+:root {
+	/* Primary color palette */
+	--chicago-maroon: #861F41;
+	--burnt-orange: #E87722;
+	--yardline-white: #FFFFFF;
+	--hokie-stone: #75787B;
+
+	/* Secondary color palette */
+	--pylon-purple: #642667;
+	--virginia-sunset: #ED8B00;
+	--boundless-pink: #CE0058;
+	--triumphant-yellow: #F7EA48;
+	--sustainable-teal: #508590;
+	--vibrant-turquoise: #2CD5C4;
+	--land-grant-grey: #D7D2CB;
+	--skipper-smoke: #E5E1E6;
+	--burnt-orange-web: #C64600;
+	--cadet-blue: #003C71;
+
+	/* Element colors */
+	--nav-bar-background: var(--chicago-maroon);
+	--nav-bar-option: #FFFFFFcc;
+	--nav-bar-option-hover: #FFFFFF;
+	--nav-bar-option-active: #FFFFFF;
+}
+
+body * {
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+
+body {
+	background: #f7f7f7 !important;
+}
+
+nav {
+	background: var(--nav-bar-background);
+	justify-content: start !important;
+}
+
+nav a {
+	color: var(--nav-bar-option);
+}
+
+nav a:hover {
+	color: var(--nav-bar-option-hover);
+}
+
+.active {
+	color: var(--nav-bar-option-hover);
+	text-decoration: underline;
+}
+
+.title-card {
+	height: 35vh;
+	overflow: hidden;
+}
+
+.title-card img {
+	width: 100vw;
+}
+
+/*///////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////// OFFICERS PAGE START ///////////////////////////*/
+.officer {
+	background: #fff;
+	position: relative;
+	float: left;
+	margin: 10px 1%;
+	min-width: 230px;
+	max-width: 48%;
+	width: 100%;
+	text-align: center;
+	line-height: 1.4em;
+	font-size: 14px;
+	border-bottom: 4px solid #2CD5C4;
+}
+
+.officer .officer-picture {
+	display: inline-block;
+	width: 80%;
+	z-index: 1;
+	position: relative;
+	padding: 10px;
+}
+
+.officer-name {
+	font-variant: small-caps;
+	font-size: 25px;
+}
+
+.officer-position {
+	font-size: 20px;
+	font-variant: all-petite-caps;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+.officer-email {
+	font-size: 18px;
+	font-variant: all-petite-caps;
+}
+
+.officer-year {
+	margin-bottom: 0;
+	font-variant: small-caps;
+	font-size: 16px;
+}
+
+
+/*//////////////////////////// OFFICERS PAGE END ////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////*/
