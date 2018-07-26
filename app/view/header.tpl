@@ -19,8 +19,6 @@
 
 	<script src=https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.4.2/css-doodle.min.js></script>
 
-	<script src="<?= BASE_URL ?>/app/public/js/d3.v3.min.js"></script>
-	<script src="<?= BASE_URL ?>/app/public/js/d3timeline.js"></script>
 	<script src="<?= BASE_URL ?>/app/public/js/index.js"></script>
 
 </head>
@@ -28,44 +26,37 @@
 <body>
 
 	<nav class="navbar sticky-top navbar-dark ">
-		<a class="nav-item nav-link active" href="<?= BASE_URL ?>">Home</a>
-		<a class="nav-item nav-link" href="<?= BASE_URL ?>/get_involved/">Get Involved</a>
-		<a class="nav-item nav-link" href="<?= BASE_URL ?>/sponsors/">Sponsors</a>
-		<a class="nav-item nav-link" href="<?= BASE_URL ?>/officers/">Officers</a>
-		<a class="nav-item nav-link" href="<?= BASE_URL ?>/about/">About</a>
-		<a class="nav-item nav-link" href="<?= BASE_URL ?>/contact_us/">Contact Us</a>
+		<?php if($pageTitle == 'Home'): ?>
+			<a class="nav-item nav-link active" href="<?= BASE_URL ?>">Home</a>
+		<?php else: ?>
+			<a class="nav-item nav-link" href="<?= BASE_URL ?>">Home</a>
+		<?php endif; ?>
+		<?php if($pageTitle == 'Get Involved'): ?>
+			<a class="nav-item nav-link active" href="<?= BASE_URL ?>/get_involved/">Get Involved</a>
+		<?php else: ?>
+			<a class="nav-item nav-link" href="<?= BASE_URL ?>/get_involved/">Get Involved</a>
+		<?php endif; ?>
+		<?php if($pageTitle == 'Sponsors'): ?>
+			<a class="nav-item nav-link active" href="<?= BASE_URL ?>/sponsors/">Sponsors</a>
+		<?php else: ?>
+			<a class="nav-item nav-link" href="<?= BASE_URL ?>/sponsors/">Sponsors</a>
+		<?php endif; ?>
+		
+		<?php if($pageTitle == 'Officers'): ?>
+			<a class="nav-item nav-link active" href="<?= BASE_URL ?>/officers/">Officers</a>
+		<?php else: ?>
+			<a class="nav-item nav-link" href="<?= BASE_URL ?>/officers/">Officers</a>
+		<?php endif; ?>
+
+		<?php if($pageTitle == 'About'): ?>
+			<a class="nav-item nav-link active" href="<?= BASE_URL ?>/about/">About</a>
+		<?php else: ?>
+			<a class="nav-item nav-link" href="<?= BASE_URL ?>/about/">About</a>
+		<?php endif; ?>
+
+		<?php if($pageTitle == 'Contact Us'): ?>
+			<a class="nav-item nav-link active" href="<?= BASE_URL ?>/contact_us/">Contact Us</a>
+		<?php else: ?>
+			<a class="nav-item nav-link" href="<?= BASE_URL ?>/contact_us/">Contact Us</a>
+		<?php endif; ?>
 	</nav>
-
-	<!-- <nav>
-		<ul class="nav-menu-list">
-			<?php if($pageTitle == 'Home'): ?>
-				<li class="nav-item"><a href="<?= BASE_URL ?>" class="selected">Home</a></li>
-			<?php else: ?>
-				<li class="nav-item"><a href="<?= BASE_URL ?>">Home</a></li>
-			<?php endif; ?>
-
-			<?php if($pageTitle == 'Get Involved'): ?>
-				<li class="nav-item"><a href="<?= BASE_URL ?>/get_involved/" class="selected">Get Involved</a></li>
-			<?php else: ?>
-				<li class="nav-item"><a href="<?= BASE_URL ?>/get_involved/">Get Involved</a></li>
-			<?php endif; ?>
-
-			<?php if($pageTitle == 'Sponsors'): ?>
-				<li class="nav-item"><a href="<?= BASE_URL ?>/sponsors/" class="selected">Sponsors</a></li>
-			<?php else: ?>
-				<li class="nav-item"><a href="<?= BASE_URL ?>/sponsors/">Sponsors</a></li>
-			<?php endif; ?>
-
-			<?php if($pageTitle == 'About'): ?>
-				<li class="nav-item"><a href="<?= BASE_URL ?>/about/" class="selected">About</a></li>
-			<?php else: ?>
-				<li class="nav-item"><a href="<?= BASE_URL ?>/about/">About</a></li>
-			<?php endif; ?>
-
-			<?php if($pageTitle == 'Contact Us'): ?>
-				<li class="nav-item"><a href="<?= BASE_URL ?>/contact_us/" class="selected">Contact Us</a></li>
-			<?php else: ?>
-				<li class="nav-item"><a href="<?= BASE_URL ?>/contact_us/">Contact Us</a></li>
-			<?php endif; ?>
-		</ul>
-	</nav> -->

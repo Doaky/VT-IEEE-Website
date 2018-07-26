@@ -19,11 +19,18 @@
 	--burnt-orange-web: #C64600;
 	--cadet-blue: #003C71;
 
+	/* Theme Colors */
+	--text-color: #212529;
+	--main-background-color: #f7f7f7;
+	--primary-color: var(--chicago-maroon);
+
 	/* Element colors */
 	--nav-bar-background: var(--chicago-maroon);
 	--nav-bar-option: #FFFFFFcc;
 	--nav-bar-option-hover: #FFFFFF;
 	--nav-bar-option-active: #FFFFFF;
+
+	
 }
 
 body * {
@@ -32,46 +39,74 @@ body * {
 
 
 body {
-	background: #f7f7f7 !important;
+	background: var(--main-background-color) !important;
 }
 
 nav {
+	user-select: none;
 	background: var(--nav-bar-background);
 	justify-content: start !important;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
 }
 
 nav a {
 	color: var(--nav-bar-option);
+	transition: .2s;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px 20px;
+	position: relative;
 }
 
 nav a:hover {
 	color: var(--nav-bar-option-hover);
+	transition: .2s;
+}
+
+nav a:after {    
+	background: none repeat scroll 0 0 transparent;
+	bottom: 7px;
+	content: '';
+	display: block;
+	height: 1.5px;
+	left: 50%;
+	position: absolute;
+	background: var(--nav-bar-option-active);
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0;
+}
+
+nav a:hover:after { 
+	width: 75%;
+	left: 13%;
 }
 
 .active {
-	color: var(--nav-bar-option-hover);
-	text-decoration: underline;
+	color: var(--nav-bar-option-active);
 }
 
-.title-card {
-	height: 35vh;
-	overflow: hidden;
+.active::after {
+	left: 12%;
+	width: 75%;
 }
 
-.title-card img {
-	width: 100vw;
+.text-link {
+	color: var(--primary-color) !important;
 }
 
 /*///////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////// OFFICERS PAGE START ///////////////////////////*/
 .officer {
+	animation: fadeInLeft 3s;
 	background: #fff;
 	position: relative;
 	float: left;
-	margin: 10px 1%;
+	margin: 20px 3%;
 	min-width: 230px;
-	max-width: 48%;
-	width: 100%;
+	max-width: 380px;
+	width: auto;
 	text-align: center;
 	line-height: 1.4em;
 	font-size: 14px;
@@ -112,3 +147,97 @@ nav a:hover {
 
 /*//////////////////////////// OFFICERS PAGE END ////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////////*/
+
+.title-card {
+	user-select: none;
+	background: var(--nav-bar-background);
+	height: 35vh;
+	overflow: hidden;
+}
+
+.title-card img {
+	width: 100vw;
+}
+
+.home-page {
+	padding: 30px;
+}
+
+.home-page h1 {
+	letter-spacing: 4px;
+	animation: fadeIn 1.5s;
+}
+
+.home-page p {
+	animation: fadeIn 2.5s;
+}
+/*STUFF*/
+.media-links {
+	animation: fadeIn 3.5s;
+	list-style: none;
+	padding: 0;
+}
+
+.media-links a {
+	color: var(--text-color);
+	transition: .25s;
+}
+
+.media-links a:hover {
+	color: var(--primary-color)
+}
+/*END OF STUFF*/
+
+.about-page {
+	padding: 30px;
+}
+
+.about-page h1 {
+	letter-spacing: 4px;
+	animation: fadeIn 1.5s;
+}
+
+.about-page ul {
+	animation: fadeIn 2.5s;
+}
+
+.contact-page {
+	padding: 30px;
+}
+
+.contact-page h1 {
+	letter-spacing: 4px;
+	animation: fadeIn 1.5s;
+}
+
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeInLeft {
+	from {
+		opacity: 0;
+		transform: translate3d(-100%, 0, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes fadeInRight {
+	from {
+		opacity: 0;
+		transform: translate3d(100%, 0, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}

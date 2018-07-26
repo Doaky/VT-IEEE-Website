@@ -1,17 +1,46 @@
 <main class="contact-page">
 
-	<div id="contact" class="background-image"></div>
-	<p class="text">
-		<strong>Webmaster:</strong> <br> Daniel Ocheltree <br> <a href="mailto:djo96@vt.edu">djo96@vt.edu</a>
-		<br> <br>
-		<strong>API Integration:</strong> <br> Parker Irving <br> <a href="mailto:parker45@vt.edu">parker45@vt.edu</a>
-		<br> <br>
-		<strong>Front-End Design:</strong> <br> Jay Park <br> <a href="mailto:jpark96@vt.edu">jpark96@vt.edu</a>
-		<br> <br>
-		<strong>Back-End Design:</strong> <br> Brendan Gregos <br> <a href="mailto:bgregos@vt.edu">bgregos@vt.edu</a>
-		<br> <br>
-		<strong>Researcher:</strong> <br> Emily Stewart <br> <a href="mailto:emilys97@vt.edu">emilys97@vt.edu</a>
-		<br> <br>
-		Please feel free to email us questions, comments, or change requests.
-	</p>
+	<h1>Contact Us</h1>
+
+	<hr>
+
+	<form name="contact_form" method="post" action="send_form_email.php">
+		<label for="name">Name</label>
+		<input type="text" name="name" maxlength="80" size="20">
+
+		<br>
+
+		<label for="email">Email</label>
+		<input type="text" name="email" maxlength="80" size="28">
+
+		<br>
+
+		<label for="subject">Subject</label>
+		<select name="subject">
+			<option value="general">General</option>
+			<option value="suggestion">Suggestion</option>
+			<option value="employer">Employer</option>
+			<option value="website">Website</option>
+		</select>
+
+		<br>
+
+		<label for="message">Message</label>
+		<textarea name="message" rows="5" cols="40"></textarea>
+
+		<br>
+
+		<label for="message">Send Me a Copy</label>
+		<input type="checkbox" name="send_to_user" value="Yes"/>
+
+		<br><br>
+
+		<input type="submit" name="submit" value="Send Message">
+	</form>
+
+	<ul class="media-links">
+		<li><a href="https://m.me/VTIEEEstudentchapter" target="_blank"><i class="fab fa-facebook-messenger"></i> Messenger</a></li>
+		<li><a href="mailto:vt-ieee-g@vt.edu"><i class="fas fa-envelope"></i> Email</a></li>
+	</div>
+
 </main>
