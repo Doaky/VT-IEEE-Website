@@ -83,6 +83,16 @@ nav a:hover:after {
 	left: 13%;
 }
 
+.icon::after {
+	content: none !important;
+}
+
+.icon {
+	display: none;
+	padding-top: 0;
+    padding-bottom: 0;
+}
+
 .active {
 	color: var(--nav-bar-option-active);
 }
@@ -98,19 +108,30 @@ nav a:hover:after {
 
 /*///////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////// OFFICERS PAGE START ///////////////////////////*/
+
+.officer-row {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.officers-page {
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
 .officer {
 	animation: fadeInLeft 3s;
 	background: #fff;
-	position: relative;
-	float: left;
-	margin: 20px 3%;
+	margin: 30px 15px;
 	min-width: 230px;
-	max-width: 380px;
-	width: auto;
+	max-width: 325px;
+	width: 40%;
 	text-align: center;
 	line-height: 1.4em;
 	font-size: 14px;
 	border-bottom: 4px solid #2CD5C4;
+	display: inline-block;
 }
 
 .officer .officer-picture {
@@ -151,8 +172,8 @@ nav a:hover:after {
 .title-card {
 	user-select: none;
 	background: var(--nav-bar-background);
-	height: 35vh;
 	overflow: hidden;
+	max-height: 200px;
 }
 
 .title-card img {
@@ -178,15 +199,28 @@ nav a:hover:after {
 	padding: 0;
 }
 
-.media-links a {
+.link {
 	color: var(--text-color);
 	transition: .25s;
 }
 
-.media-links a:hover {
+.link:hover {
 	color: var(--primary-color)
 }
 /*END OF STUFF*/
+
+.get-involved-page {
+	padding: 30px;
+}
+
+.get-involved-page h1 {
+	letter-spacing: 4px;
+	animation: fadeIn 1.5s;
+}
+
+.get-involved-page p, ul {
+	animation: fadeIn 2.5s;
+}
 
 .about-page {
 	padding: 30px;
@@ -201,6 +235,19 @@ nav a:hover:after {
 	animation: fadeIn 2.5s;
 }
 
+.sponsor-page {
+	padding: 30px;
+}
+
+.sponsor-page h1 {
+	letter-spacing: 4px;
+	animation: fadeIn 1.5s;
+}
+
+.sponsor-page p, ul, h2 {
+	animation: fadeIn 2.5s;
+}
+
 .contact-page {
 	padding: 30px;
 }
@@ -210,6 +257,18 @@ nav a:hover:after {
 	animation: fadeIn 1.5s;
 }
 
+.contact-page form {
+	padding-bottom: 40px;
+}
+
+.contact-page label {
+	display: block;
+	padding-top: 10px;
+}
+
+#send-to-user {
+	display: inline-block;
+}
 
 @keyframes fadeIn {
 	from {
@@ -241,3 +300,87 @@ nav a:hover:after {
 		transform: translate3d(0, 0, 0);
 	}
 }
+
+textarea {
+	resize: none;
+}
+.form-label {
+	font-size: 12px;
+	color: #5e9bfc;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;
+}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+	border-width: 0 0 2px 0;
+	border-style: none none solid none;
+	box-shadow: none;
+}
+.form-control:focus {
+	box-shadow: none;
+	border-color: #5e9bfc;
+}
+.js-hide-label {
+	opacity: 0; 	
+}
+.js-unhighlight-label {
+	color: #999 
+}
+.btn-start-order {
+	background: 0 0 #ffffff;
+	border: 1px solid #2f323a;
+	border-radius: 3px;
+	color: #2f323a;
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+	line-height: inherit;
+	margin: 30px 0;
+	padding: 10px 50px;
+	text-transform: uppercase;
+	transition: all 0.25s ease 0s;
+}
+.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
+	border-color: #5e9bfc;
+	color: #5e9bfc;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 598px) {
+	nav {
+		justify-content: space-between !important;
+	}
+	.icon {
+		display: block;
+	}
+	nav a:not(:first-child):not(:last-child) {
+		display: none;
+	}
+
+	.responsive {
+		display: block !important;
+	}
+
+	.responsive a {
+		display: block !important;
+		text-align: center;
+	}
+
+	.responsive .active::after {
+	    left: 35%;
+		width: 30%;
+	}
+
+	.responsive a:hover:after { 
+		left: 35%;
+		width: 30%;
+	}
+
+	.responsive a:last-child {
+		display: none !important;
+	}
+}
+

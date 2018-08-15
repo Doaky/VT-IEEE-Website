@@ -3,7 +3,7 @@
 <head>
 	<title><?= $pageTitle ?> | VT IEEE</title>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" type="text/css" href="<?= BASE_URL ?>/app/public/css/styles.css" />
 	<link rel="stylesheet" type="text/css" href="<?= BASE_URL ?>/app/public/css/timeline.css"/>
@@ -41,22 +41,44 @@
 		<?php else: ?>
 			<a class="nav-item nav-link" href="<?= BASE_URL ?>/sponsors/">Sponsors</a>
 		<?php endif; ?>
-		
 		<?php if($pageTitle == 'Officers'): ?>
 			<a class="nav-item nav-link active" href="<?= BASE_URL ?>/officers/">Officers</a>
 		<?php else: ?>
 			<a class="nav-item nav-link" href="<?= BASE_URL ?>/officers/">Officers</a>
 		<?php endif; ?>
 
-		<?php if($pageTitle == 'About'): ?>
-			<a class="nav-item nav-link active" href="<?= BASE_URL ?>/about/">About</a>
+		<?php if($pageTitle == 'Contact'): ?>
+			<a class="nav-item nav-link active" href="<?= BASE_URL ?>/contact/">Contact</a>
 		<?php else: ?>
-			<a class="nav-item nav-link" href="<?= BASE_URL ?>/about/">About</a>
+			<a class="nav-item nav-link" href="<?= BASE_URL ?>/contact/">Contact</a>
 		<?php endif; ?>
 
-		<?php if($pageTitle == 'Contact Us'): ?>
-			<a class="nav-item nav-link active" href="<?= BASE_URL ?>/contact_us/">Contact Us</a>
-		<?php else: ?>
-			<a class="nav-item nav-link" href="<?= BASE_URL ?>/contact_us/">Contact Us</a>
-		<?php endif; ?>
+		<a href="javascript:void(0);" class="icon" onclick="showMenu()">
+			<i class="fas fa-times"></i>
+		</a>
+
+		<a href="javascript:void(0);" class="icon" onclick="showMenu()">
+			<i class="fa fa-bars"></i>
+		</a>
 	</nav>
+
+<script type="text/javascript">
+	$(window).resize(larg);
+
+	function larg(){
+	    if ($(window).width() > 598) {
+			nav.className = "navbar sticky-top navbar-dark ";
+		}
+	}
+
+	var nav = document.getElementsByClassName("navbar")[0];
+
+	function showMenu() {
+		// var nav = document.getElementsByClassName("navbar")[0];
+		if (nav.className === "navbar sticky-top navbar-dark ") {
+			nav.className += "responsive";
+		} else {
+			nav.className = "navbar sticky-top navbar-dark ";
+		}
+	}	
+</script>

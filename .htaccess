@@ -10,10 +10,4 @@ RewriteRule ^$               app/controller/siteController.php?action=home [QSA,
 RewriteRule ^get_involved/?$ app/controller/siteController.php?action=get_involved [QSA,L]
 RewriteRule ^sponsors/?$     app/controller/siteController.php?action=sponsors [QSA,L]
 RewriteRule ^officers/?$     app/controller/siteController.php?action=officers [QSA,L]
-RewriteRule ^about/?$        app/controller/siteController.php?action=about [QSA,L]
-RewriteRule ^contact_us/?$   app/controller/siteController.php?action=contact_us [QSA,L]
-
-# Footer
-#RewriteRule ^about/?$ app/controller/siteController.php?action=about [QSA,L]
-#RewriteRule ^help/?$ app/controller/siteController.php?action=help [QSA,L]
-#RewriteRule ^contact/?$ app/controller/siteController.php?action=contact [QSA,L]
+RewriteRule ^contact/?$      app/controller/siteController.php?action=contact [QSA,L]

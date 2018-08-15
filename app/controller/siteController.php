@@ -25,8 +25,8 @@ class SiteController {
 			case 'about':
 				$this->about();
 				break;
-			case 'contact_us':
-				$this->contact_us();
+			case 'contact':
+				$this->contact();
 				break;
 		}
 	}
@@ -67,10 +67,10 @@ class SiteController {
 		// include_once SYSTEM_PATH.'/view/footer.tpl';
 	}
 
-	public function contact_us() {
-		$pageTitle = 'Contact Us';
+	public function contact() {
+		$pageTitle = 'Contact';
 		include_once SYSTEM_PATH.'/view/header.tpl';
-		include_once SYSTEM_PATH.'/view/contact_us.tpl';
+		include_once SYSTEM_PATH.'/view/contact.tpl';
 		// include_once SYSTEM_PATH.'/view/footer.tpl';
 	}
 }

@@ -5,18 +5,17 @@
 	<hr>
 
 	<p>
-		Welcome to Virginia Tech IEEE! The Institute of Electrical and Electronics Engineers is an international organization with over 350,000 members. The Virginia Tech IEEE student branch is part of the Virginia Mountain Section of the IEEE national branch. As the 8th largest collegiate IEEE student chapter, we aim to promote professional awareness, encourage academic growth, and organize social activities within the Hokie community.
+		Welcome to Virginia Tech IEEE! The Institute of Electrical and Electronics Engineers is an international organization with over 350,000 members. The Virginia Tech IEEE student branch is part of the Virginia Mountain Section of the IEEE national branch and is made up of students from the Virginia Tech Electrical and Computer Engineering (ECE) Department. We aim to create a strong community within the department and help ECE students develop professionally, academically, and socially.
 	</p>
 
 	<p>
-		For more information on IEEE at Virginia Tech, see our <a href="about" class="text-link">about section</a>.
+		For more information on IEEE at Virginia Tech, see our <a href="get_involved" class="text-link">Get Involved section</a>.
 	</p>
 
 	<ul class="media-links">
-		<li><a href="https://www.facebook.com/VTIEEEstudentchapter/"><i class="fab fa-facebook" target="_blank"></i> Facebook</a></li>
-		<li><a href="https://www.instagram.com/vt_ieee/"><i class="fab fa-instagram" target="_blank"></i> Instagram</a></li>
-		<li><a href="https://gobblerconnect.vt.edu/organization/ieee/" target="_blank"><i class="fas fa-link"></i> GobblerConnect</a></li>
-	</div>
-		<!-- <i class="fas fa-envelope"></i> Email <br> -->
+		<li><a href="https://www.facebook.com/VTIEEEstudentchapter/" target="_blank" class="link"><i class="fab fa-facebook"></i> Facebook</a></li>
+		<li><a href="https://www.instagram.com/vt_ieee/" target="_blank" class="link"><i class="fab fa-instagram"></i> Instagram</a></li>
+		<li><a href="https://gobblerconnect.vt.edu/organization/ieee/" target="_blank" class="link"><i class="fas fa-link"></i> GobblerConnect</a></li>
+	</ul>
 
 </main>
