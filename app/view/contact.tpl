@@ -3,40 +3,44 @@
 	<h1>Contact Us</h1>
 
 	<hr>
+		<form name="contact_form" method="post" action="<?= BASE_URL ?>/contact/send/">
+			<label for="name">Name</label>
+			<input type="text" name="name" maxlength="80" size="20" required="true">
 
-	<form id="contact-form" class="form" action="#" method="POST" role="form">
-		<div class="form-group">
-			<label class="form-label" for="name">Name</label>
-			<input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1" required>
-		</div>
-		<div class="form-group">
-			<label class="form-label" for="email">Email</label>
-			<input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2" required>
-		</div>
-		<div class="form-group">
+			<br>
+
+			<label for="email">Email</label>
+			<input type="email" name="email" maxlength="80" size="28" required="true">
+
+			<br>
+
 			<label for="subject">Subject</label>
-			<select name="subject">
-				<option value="general">General</option>
-				<option value="suggestion">Suggestion</option>
-				<option value="employer">Employer</option>
-				<option value="website">Website</option>
+			<select name="subject" required="true">
+				<option value="General">General</option>
+				<option value="Suggestion">Suggestion</option>
+				<option value="Employer">Employer</option>
+				<option value="Website">Website</option>
 			</select>
-		</div>
-		<div class="form-group">
-			<label class="form-label" for="message">Message</label>
-		</div>
-		<div class="form-group">
-			<label for="copy">Send Me a Copy</label>
-			<input type="checkbox" name="send_to_user" value="Yes" id="send-to-user">
-		</div>
-		<div class="text-center">
-			<button type="submit" class="btn btn-start-order">Send Message</button>
-		</div>
-	</form>
+
+			<br>
+
+			<label for="message">Message</label>
+			<textarea name="message" rows="5" cols="40" required="true"></textarea>
+
+			<br>
+
+			<label for="send_to_user">Send Me a Copy</label>
+			<input type="checkbox" name="send_to_user"/>
+
+			<br><br>
+
+			<input type="submit" value="Send Message">
+		</form>
 
 	<ul class="media-links">
-		<li><a href="https://m.me/VTIEEEstudentchapter" target="_blank"><i class="fab fa-facebook-messenger"></i> Messenger</a></li>
-		<li><a href="mailto:vt-ieee-g@vt.edu"><i class="fas fa-envelope"></i> Email</a></li>
+		<li><a href="mailto:ieee.virginiatech@gmail.com" class="link"><i class="fas fa-envelope"></i> Email</a></li>
+		<li><a href="https://m.me/VTIEEEstudentchapter" target="_blank" class="link"><i class="fab fa-facebook-messenger"></i> Messenger</a></li>
+		<li><a href="https://groups.google.com/a/vt.edu/forum/#!forum/vt-ieee-g/join" target="_blank" class="link"><i class="fab fa-google"></i> Google Group</a></li>
 	</div>
 
 </main>

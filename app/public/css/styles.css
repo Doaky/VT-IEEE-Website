@@ -104,6 +104,16 @@ nav a:hover:after {
 
 .text-link {
 	color: var(--primary-color) !important;
+	font-weight: bold;
+}
+
+main {
+	max-width: 900px !important;
+	padding: 30px;
+}
+
+main p, main ul {
+	font-size: 18px;
 }
 
 /*///////////////////////////////////////////////////////////////////////////*/
@@ -116,12 +126,12 @@ nav a:hover:after {
 
 .officers-page {
 	text-align: center;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 0 30px 0 30px;
+	max-width: 100% !important;
 }
 
 .officer {
-	animation: fadeInLeft 3s;
+	animation: fadeInLeft 2s;
 	background: #fff;
 	margin: 30px 15px;
 	min-width: 230px;
@@ -165,7 +175,6 @@ nav a:hover:after {
 	font-size: 16px;
 }
 
-
 /*//////////////////////////// OFFICERS PAGE END ////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////////*/
 
@@ -173,7 +182,11 @@ nav a:hover:after {
 	user-select: none;
 	background: var(--nav-bar-background);
 	overflow: hidden;
-	max-height: 200px;
+	height: 200px;
+	background-image: url('../img/title-background.jpg');
+	background-size: cover;
+	background-position: center;
+	max-width: 100% !important;
 }
 
 .title-card img {
@@ -196,7 +209,7 @@ nav a:hover:after {
 .media-links {
 	animation: fadeIn 3.5s;
 	list-style: none;
-	padding: 0;
+	padding: 20px 0 0 0;
 }
 
 .link {
@@ -255,6 +268,12 @@ nav a:hover:after {
 .contact-page h1 {
 	letter-spacing: 4px;
 	animation: fadeIn 1.5s;
+}
+
+.contact-page form {
+	letter-spacing: .5px;
+	font-variant: small-caps;
+	animation: fadeIn 2.5s;
 }
 
 .contact-page form {

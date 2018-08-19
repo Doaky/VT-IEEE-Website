@@ -15,6 +15,7 @@
 	<ul class="media-links">
 		<li><a href="https://www.facebook.com/VTIEEEstudentchapter/" target="_blank" class="link"><i class="fab fa-facebook"></i> Facebook</a></li>
 		<li><a href="https://www.instagram.com/vt_ieee/" target="_blank" class="link"><i class="fab fa-instagram"></i> Instagram</a></li>
+		<li><a href="https://groups.google.com/a/vt.edu/forum/#!forum/vt-ieee-g/join" target="_blank" class="link"><i class="fab fa-google"></i> Google Group</a></li>
 		<li><a href="https://gobblerconnect.vt.edu/organization/ieee/" target="_blank" class="link"><i class="fas fa-link"></i> GobblerConnect</a></li>
 	</ul>
 

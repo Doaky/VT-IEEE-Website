@@ -1,4 +1,10 @@
+<!-- <h1>2018-2019 Officers</h1> -->
+
+<!-- <hr> -->
+
 <main class="officers-page">
+
+
 
 	<figure class="officer">
 		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/katie_biggs.jpg" alt="President - Katie Biggs"/>

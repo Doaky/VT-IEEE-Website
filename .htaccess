@@ -11,3 +11,6 @@ RewriteRule ^get_involved/?$ app/controller/siteController.php?action=get_involv
 RewriteRule ^sponsors/?$     app/controller/siteController.php?action=sponsors [QSA,L]
 RewriteRule ^officers/?$     app/controller/siteController.php?action=officers [QSA,L]
 RewriteRule ^contact/?$      app/controller/siteController.php?action=contact [QSA,L]
+
+RewriteRule ^contact/send/?$ app/controller/siteController.php?action=contactSend [QSA,L]
+RewriteRule ^contact/sent/?$ app/controller/siteController.php?action=sent [QSA,L]

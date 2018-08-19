@@ -28,6 +28,17 @@ class SiteController {
 			case 'contact':
 				$this->contact();
 				break;
+			case 'contactSend':
+				$name         = $_POST['name'];
+				$email        = $_POST['email'];
+				$subject      = $_POST['subject'];
+				$message      = $_POST['message'];
+				$send_to_user = isset($_POST['send_to_user']);
+				$this->contactSend($name, $email, $subject, $message, $send_to_user);
+				break;
+			case 'sent':
+				$this->sent();
+				break;
 		}
 	}
 
@@ -72,5 +83,29 @@ class SiteController {
 		include_once SYSTEM_PATH.'/view/header.tpl';
 		include_once SYSTEM_PATH.'/view/contact.tpl';
 		// include_once SYSTEM_PATH.'/view/footer.tpl';
+	}
+
+	public function sent() {
+		$pageTitle = 'Contact';
+		include_once SYSTEM_PATH.'/view/header.tpl';
+		include_once SYSTEM_PATH.'/view/sent.tpl';
+		// include_once SYSTEM_PATH.'/view/footer.tpl';
+	}
+
+	public function contactSend($name, $email, $subject, $message, $send_to_user) {
+		if ($send_to_user) {
+			mail($email, $subject . " - " . $name, $name . "\n" . $email . "\n\n" . $message);
+		}
+
+		$email_to = "ieee.virginiatech@gmail.com";
+
+		switch ($subject) {
+		    case "Website":
+		        $email_to .= ",djo96@vt.edu";
+		        break;
+		}
+
+		mail($email_to, $subject . " - " . $name, $name . "\n" . $email . "\n\n" . $message);
+		header('Location: '.BASE_URL.'/contact/sent'); exit();
 	}
 }
