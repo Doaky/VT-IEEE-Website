@@ -147,11 +147,11 @@
 	</figure>
 
 	<figure class="officer">
-		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/vinith.jpg" alt="Robotics Chair - Vinith"/>
+		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/vineeth_kirandumkara.jpg" alt="Robotics Chair - Vineeth Kirandumkara"/>
 		<figcaption>
-			<h3 class="officer-name">Vinith</h3>
+			<h3 class="officer-name">Vineeth Kirandumkara</h3>
 			<h4 class="officer-position">Robotics Chair</h4>
-			<h4 class="officer-year">??? '19</h4>
+			<h4 class="officer-year">Computer Engineering '19</h4>
 			<h4 class="officer-email">vineethk@vt.edu</h4>
 		</figcaption>
 	</figure>

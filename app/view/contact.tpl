@@ -4,6 +4,9 @@
 
 	<hr>
 		<form name="contact_form" method="post" action="<?= BASE_URL ?>/contact/send/">
+			<!-- Spam Prevention -->
+			<input id="occupation" type="text" name="occupation" maxlength="80" size="20">
+
 			<label for="name">Name</label>
 			<input type="text" name="name" maxlength="80" size="20" required="true">
 
@@ -27,14 +30,14 @@
 			<label for="message">Message</label>
 			<textarea name="message" rows="5" cols="40" required="true"></textarea>
 
-			<br>
+			<br><br>
 
-			<label for="send_to_user">Send Me a Copy</label>
-			<input type="checkbox" name="send_to_user"/>
+			<div class="g-recaptcha" data-sitekey="6LfU8GoUAAAAALBs1U8UNVtvuaMq9cLQNAR7oh0A"></div>
 
 			<br><br>
 
 			<input type="submit" value="Send Message">
+
 		</form>
 
 	<ul class="media-links">
@@ -44,3 +47,13 @@
 	</div>
 
 </main>
+
+<script type="text/javascript">
+	$("form").submit(function(event) {
+		var recaptcha = $("#g-recaptcha-response").val();
+		if (recaptcha === "") {
+			event.preventDefault();
+			alert("Please check the recaptcha");
+		}
+	});
+</script>

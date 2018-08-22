@@ -5,14 +5,26 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta property="og:url" content="https://www.ieee.vt.edu">
+	<meta property="og:url" content="https://www.ieee.vt.edu/">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="VT IEEE">
 	<meta property="og:description" content="Virginia Tech's IEEE Chapter">
-	<meta property="og:image" content="<?= BASE_URL ?>/app/public/img/title-background.jpg">
+	<meta property="og:image" content="<?= BASE_URL ?>/app/public/img/ieee_vt_logo.png">
 
 	<link rel="stylesheet" type="text/css" href="<?= BASE_URL ?>/app/public/css/styles.css" />
 	<link rel="icon" href="<?= BASE_URL ?>/app/public/img/favicon.ico">
+
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124247458-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-124247458-1');
+	</script>
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
