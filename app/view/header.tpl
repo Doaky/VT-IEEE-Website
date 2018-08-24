@@ -13,17 +13,28 @@
 
 	<link rel="stylesheet" type="text/css" href="<?= BASE_URL ?>/app/public/css/styles.css" />
 	<link rel="icon" href="<?= BASE_URL ?>/app/public/img/favicon.ico">
+	<!-- <link rel="icon" href="<?= BASE_URL ?>/app/public/img/ieee_vt_logo.png"> -->
 
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124247458-1"></script>
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124247458-1"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
 
 	  gtag('config', 'UA-124247458-1');
+	</script> -->
+
+	<script type="text/javascript" data-cfasync="false">
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-124247458-1', 'auto');
+		ga('send', 'pageview');
 	</script>
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
