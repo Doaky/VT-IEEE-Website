@@ -12,12 +12,6 @@
 		For more information on IEEE at Virginia Tech, see our <a href="get_involved" class="text-link">Get Involved section</a>.
 	</p>
 	
-	<!-- <div class="pin-container">
-		<img class="pin" src="<?= BASE_URL ?>/app/public/img/EE_Pin_Circle.png">
-		<img class="pin" src="<?= BASE_URL ?>/app/public/img/CPE_Pin_Circle.png">
-		<img class="pin" src="<?= BASE_URL ?>/app/public/img/CS_Pin_Circle.png">
-	</div> -->
-
 	<ul class="media-links">
 		<li><a href="https://www.facebook.com/VTIEEEstudentchapter/" target="_blank" class="link"><i class="fab fa-facebook"></i> Facebook</a></li>
 		<li><a href="https://www.instagram.com/vt_ieee/" target="_blank" class="link"><i class="fab fa-instagram"></i> Instagram</a></li>

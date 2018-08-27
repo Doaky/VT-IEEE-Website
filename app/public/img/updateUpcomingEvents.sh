@@ -5,6 +5,3 @@ curl -L "https://docs.google.com/spreadsheets/d/e/2PACX-1vRT4j8_uq8krB9XVHxPI0mx
 
 # Put on server with CyberDuck
 duck --upload davs://djo96@webdav.hosting.vt.edu/www.ieee.vt.edu/app/public/img/ "Upcoming Events.csv" --existing overwrite
-
-
-sleep 30

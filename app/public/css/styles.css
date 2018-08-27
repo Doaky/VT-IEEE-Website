@@ -114,6 +114,60 @@ main p, main ul {
 	font-size: 18px;
 }
 
+.media-links {
+	animation: fadeIn 3.5s;
+	list-style: none;
+	padding: 20px 0 0 0;
+}
+
+.link {
+	color: var(--text-color);
+	transition: .25s;
+}
+
+.link:hover {
+	color: var(--primary-color)
+}
+
+#occupation {
+	display: none;
+}
+
+/*///////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////// HOME PAGE START /////////////////////////////*/
+
+.home-page {
+	padding: 30px;
+}
+
+.home-page h1 {
+	letter-spacing: 4px;
+	animation: fadeIn 1.5s;
+}
+
+.home-page p {
+	animation: fadeIn 2.5s;
+}
+
+/*////////////////////////////// HOME PAGE END //////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////*/
+
+/*///////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////// GET INVOLVED PAGE START /////////////////////////*/
+
+.get-involved-page {
+	padding: 30px;
+}
+
+.get-involved-page h1 {
+	letter-spacing: 4px;
+	animation: fadeIn 1.5s;
+}
+
+.get-involved-page p, ul {
+	animation: fadeIn 2.5s;
+}
+
 .event-card {
 	animation: fadeInLeft 2s;
 	background: #fff;
@@ -156,9 +210,9 @@ main p, main ul {
 	margin-top: 2rem;
 }
 
-#occupation {
-	display: none;
-}
+
+/*///////////////////////// GET INVOLVED PAGE START /////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////*/
 
 /*///////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////// OFFICERS PAGE START ///////////////////////////*/
@@ -237,61 +291,6 @@ main p, main ul {
 	width: 100vw;
 }
 
-.home-page {
-	padding: 30px;
-}
-
-.home-page h1 {
-	letter-spacing: 4px;
-	animation: fadeIn 1.5s;
-}
-
-.home-page p {
-	animation: fadeIn 2.5s;
-}
-/*STUFF*/
-.media-links {
-	animation: fadeIn 3.5s;
-	list-style: none;
-	padding: 20px 0 0 0;
-}
-
-.link {
-	color: var(--text-color);
-	transition: .25s;
-}
-
-.link:hover {
-	color: var(--primary-color)
-}
-/*END OF STUFF*/
-
-.get-involved-page {
-	padding: 30px;
-}
-
-.get-involved-page h1 {
-	letter-spacing: 4px;
-	animation: fadeIn 1.5s;
-}
-
-.get-involved-page p, ul {
-	animation: fadeIn 2.5s;
-}
-
-.about-page {
-	padding: 30px;
-}
-
-.about-page h1 {
-	letter-spacing: 4px;
-	animation: fadeIn 1.5s;
-}
-
-.about-page ul {
-	animation: fadeIn 2.5s;
-}
-
 .sponsor-page {
 	padding: 30px;
 }
@@ -304,6 +303,9 @@ main p, main ul {
 .sponsor-page p, ul, h2 {
 	animation: fadeIn 2.5s;
 }
+
+/*///////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////// CONTACT PAGE START ////////////////////////////*/
 
 .contact-page {
 	padding: 30px;
@@ -332,6 +334,11 @@ main p, main ul {
 #send-to-user {
 	display: inline-block;
 }
+
+
+/*/////////////////////////// CONTACT PAGE START ////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////*/
+
 
 @keyframes fadeIn {
 	from {
@@ -362,53 +369,6 @@ main p, main ul {
 		opacity: 1;
 		transform: translate3d(0, 0, 0);
 	}
-}
-
-textarea {
-	resize: none;
-}
-.form-label {
-	font-size: 12px;
-	color: #5e9bfc;
-	margin: 0;
-	display: block;
-	opacity: 1;
-	-webkit-transition: .333s ease top, .333s ease opacity;
-	transition: .333s ease top, .333s ease opacity;
-}
-.form-control {
-	border-radius: 0;
-	border-color: #ccc;
-	border-width: 0 0 2px 0;
-	border-style: none none solid none;
-	box-shadow: none;
-}
-.form-control:focus {
-	box-shadow: none;
-	border-color: #5e9bfc;
-}
-.js-hide-label {
-	opacity: 0; 	
-}
-.js-unhighlight-label {
-	color: #999 
-}
-.btn-start-order {
-	background: 0 0 #ffffff;
-	border: 1px solid #2f323a;
-	border-radius: 3px;
-	color: #2f323a;
-	font-family: "Raleway", sans-serif;
-	font-size: 16px;
-	line-height: inherit;
-	margin: 30px 0;
-	padding: 10px 50px;
-	text-transform: uppercase;
-	transition: all 0.25s ease 0s;
-}
-.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
-	border-color: #5e9bfc;
-	color: #5e9bfc;
 }
 
 /* Mobile Styles */
