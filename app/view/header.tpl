@@ -11,6 +11,8 @@
 	<meta property="og:description" content="Virginia Tech's IEEE Chapter">
 	<meta property="og:image" content="<?= BASE_URL ?>/app/public/img/ieee_vt_logo.png">
 
+	<meta name="theme-color" content="#861F41">
+
 	<link rel="stylesheet" type="text/css" href="<?= BASE_URL ?>/app/public/css/styles.css" />
 	<link rel="icon" href="<?= BASE_URL ?>/app/public/img/favicon.ico">
 	<!-- <link rel="icon" href="<?= BASE_URL ?>/app/public/img/ieee_vt_logo.png"> -->
