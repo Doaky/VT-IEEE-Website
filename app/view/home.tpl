@@ -9,7 +9,7 @@
 	</p>
 
 	<p>
-		For more information on IEEE at Virginia Tech, see our <a href="get_involved" class="text-link">Get Involved section</a>.
+		For more information on IEEE at Virginia Tech, see our <a href="get_involved" class="text-link">Get Involved section</a>. Additionally, <a href="https://groups.google.com/a/vt.edu/forum/#!forum/vt-ieee-g/join" class="text-link">click here</a> to join our mailing list!
 	</p>
 	
 	<ul class="media-links">

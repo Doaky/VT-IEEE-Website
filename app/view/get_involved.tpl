@@ -5,7 +5,7 @@
 	<hr>
 
 	<p>
-		We’re excited that you are interested in getting involved in IEEE at Virginia Tech! Below you’ll find a brief description of the types of events and activities IEEE members participate in, as well as information on how to join our listserv to stay up to date on what’s happening.
+		We’re excited that you are interested in getting involved in IEEE at Virginia Tech! Below you’ll find a brief description of the types of events and activities IEEE members participate in. Additionally, <a href="https://groups.google.com/a/vt.edu/forum/#!forum/vt-ieee-g/join" class="text-link">click here</a> to join our mailing list!
 	</p>
 
 	<p>
