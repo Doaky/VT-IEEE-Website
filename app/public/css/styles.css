@@ -226,6 +226,7 @@ main p, main ul {
 	right: 0%;
 	width: auto;
 	display: grid;
+	width: 480px;
 }
 
 .sponsor-page h4 {
@@ -401,7 +402,7 @@ main p, main ul {
 	}
 }
 
-/* Sponsor Logos */
+/* Mobile Styles */
 @media screen and (max-width: 598px) {
 	nav {
 		justify-content: space-between !important;
@@ -437,10 +438,18 @@ main p, main ul {
 	}
 }
 
-/* Mobile Styles */
-@media screen and (max-width: 1250px) {
+/* Sponsor Logos */
+@media screen and (max-width: 1125px) {
+	.sponsor-list {
+		width: 275px;
+	}
+}
+
+/* Sponsor Logos */
+@media screen and (max-width: 925px) {
 	.sponsor-list {
 		position: inherit !important;
 		display: block !important;
+		width: auto;
 	}
 }
