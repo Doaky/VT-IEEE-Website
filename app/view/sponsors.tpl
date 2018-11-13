@@ -4,20 +4,14 @@
 
 	<hr>
 
-	<h2>Thanks to Our Current Sponsors!</h2>
-	<div id="platinum_sponsors">
-		<!--     max-width: 40%;
-    max-height: 150px; -->
+	<div class="sponsor-list">
+		<h2>Thanks to Our Current Sponsors!</h2>
 		<h4>Platinum Sponsors</h4>
 		<img class="sponsor" src="<?= BASE_URL ?>/app/public/img/sponsor_logos/altria.png">
 		<img class="sponsor" src="<?= BASE_URL ?>/app/public/img/sponsor_logos/rincon.png">
-	</div>
-	<div id="gold_sponsors">
 		<h4>Gold Sponsors</h4>
 		<img class="sponsor" src="<?= BASE_URL ?>/app/public/img/sponsor_logos/lockheed.png">
 		<img class="sponsor" src="<?= BASE_URL ?>/app/public/img/sponsor_logos/qualcomm.png">
-	</div>
-	<div id="silver_sponsors">
 		<h4>Silver Sponsors</h4>
 		<img class="sponsor" src="<?= BASE_URL ?>/app/public/img/sponsor_logos/eastman.png">
 		<img class="sponsor" src="<?= BASE_URL ?>/app/public/img/sponsor_logos/marathon.png">

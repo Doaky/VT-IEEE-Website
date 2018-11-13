@@ -217,8 +217,20 @@ main p, main ul {
 /*///////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////// SPONSORS PAGE START ///////////////////////////*/
 
-h4 {
+.sponsor-page {
+	max-width: 650px !important;
+}
+
+.sponsor-list {
+	position: absolute;
+	right: 0%;
+	width: auto;
+	display: grid;
+}
+
+.sponsor-page h4 {
 	animation: fadeIn 1.5s;
+	text-decoration: underline;
 }
 
 .sponsor {
@@ -389,7 +401,7 @@ h4 {
 	}
 }
 
-/* Mobile Styles */
+/* Sponsor Logos */
 @media screen and (max-width: 598px) {
 	nav {
 		justify-content: space-between !important;
@@ -422,5 +434,13 @@ h4 {
 
 	.responsive a:last-child {
 		display: none !important;
+	}
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 1250px) {
+	.sponsor-list {
+		position: inherit !important;
+		display: block !important;
 	}
 }
