@@ -1,4 +1,4 @@
-<!-- <h1>2018-2019 Officers</h1> -->
+<!-- <h1>2019-2020 Officers</h1> -->
 
 <!-- <hr> -->
 
@@ -7,12 +7,12 @@
 
 
 	<figure class="officer">
-		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/katie_biggs.jpg" alt="President - Katie Biggs"/>
+		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/katie_biggs.jpg" alt="President - Avery Neff"/>
 		<figcaption>
-			<h3 class="officer-name">Katie Biggs</h3>
+			<h3 class="officer-name">Avery Neff</h3>
 			<h4 class="officer-position">President</h4>
-			<h4 class="officer-year">Computer Engineering '19</h4>
-			<h4 class="officer-email">kbiggs97@vt.edu</h4>
+			<h4 class="officer-year">Electrical Engineering '20</h4>
+			<h4 class="officer-email">averyn4@vt.edu</h4>
 		</figcaption>
 	</figure>
 
@@ -21,7 +21,7 @@
 		<figcaption>
 			<h3 class="officer-name">Demi Alabi</h3>
 			<h4 class="officer-position">Secretary</h4>
-			<h4 class="officer-year">Electircal Engineering '20</h4>
+			<h4 class="officer-year">Electrical Engineering '20</h4>
 			<h4 class="officer-email">demi3@vt.edu</h4>
 		</figcaption>
 	</figure>
@@ -31,7 +31,7 @@
 		<figcaption>
 			<h3 class="officer-name">William Ogle</h3>
 			<h4 class="officer-position">Treasurer</h4>
-			<h4 class="officer-year">Electircal Engineering '21</h4>
+			<h4 class="officer-year">Electrical Engineering '21</h4>
 			<h4 class="officer-email">willmo17@vt.edu</h4>
 		</figcaption>
 	</figure>
@@ -41,28 +41,28 @@
 		<figcaption>
 			<h3 class="officer-name">Daniel Webb</h3>
 			<h4 class="officer-position">Historian</h4>
-			<h4 class="officer-year">Electircal Engineering '20</h4>
+			<h4 class="officer-year">Electrical Engineering '20</h4>
 			<h4 class="officer-email">dwebb20@vt.edu</h4>
 		</figcaption>
 	</figure>
 
 	<figure class="officer">
-		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/daniel_ocheltree.jpg" alt="Webmaster - Daniel Ocheltree"/>
+		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/jimmy_mcavoy.jpg" alt="Webmaster - Jimmy McAvoy"/>
 		<figcaption>
-			<h3 class="officer-name">Daniel Ocheltree</h3>
+			<h3 class="officer-name">Jimmy McAvoy</h3>
 			<h4 class="officer-position">Webmaster</h4>
-			<h4 class="officer-year">Computer Science '19</h4>
-			<h4 class="officer-email">djo96@vt.edu</h4>
+			<h4 class="officer-year">Electrical Engineering '21</h4>
+			<h4 class="officer-email">jmcavoy@vt.edu</h4>
 		</figcaption>
 	</figure>
 
 	<figure class="officer">
-		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/bailey_spell.jpg" alt="Industry Relations - Bailey Spell"/>
+		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/david_stanley.jpg" alt="Industry Relations - David Stanley"/>
 		<figcaption>
-			<h3 class="officer-name">Bailey Spell</h3>
+			<h3 class="officer-name">David Stanley</h3>
 			<h4 class="officer-position">Industry Relations</h4>
-			<h4 class="officer-year">Computer Engineering '20</h4>
-			<h4 class="officer-email">bspell20@vt.edu</h4>
+			<h4 class="officer-year">Computer Engineering '21</h4>
+			<h4 class="officer-email">dstan35@vt.edu</h4>
 		</figcaption>
 	</figure>
 
@@ -77,12 +77,12 @@
 	</figure>
 
 	<figure class="officer">
-		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/avery_neff.jpg" alt="Activities Co-Chair - Avery Neff"/>
+		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/ashley_chang.jpg" alt="Activities Co-Chair - Ashley Chang"/>
 		<figcaption>
-			<h3 class="officer-name">Avery Neff</h3>
+			<h3 class="officer-name">Ashley Chang</h3>
 			<h4 class="officer-position">Activities Co-Chair</h4>
-			<h4 class="officer-year">Electrical Engineering '19</h4>
-			<h4 class="officer-email">averyn4@vt.edu</h4>
+			<h4 class="officer-year">Electrical Engineering '20</h4>
+			<h4 class="officer-email">achang13@vt.edu</h4>
 		</figcaption>
 	</figure>
 
@@ -97,72 +97,32 @@
 	</figure>
 
 	<figure class="officer">
-		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/ahmed_abouelhagag.jpg" alt="Academic Development Chair - Ahmed Abouelhagag"/>
+		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/alicia_harman.jpg" alt="Marketing Chair - Alicia Harman"/>
 		<figcaption>
-			<h3 class="officer-name">Ahmed Abouelhagag</h3>
-			<h4 class="officer-position">Academic Development Chair</h4>
-			<h4 class="officer-year">Computer Engineering '20</h4>
-			<h4 class="officer-email">aahme612@vt.edu</h4>
-		</figcaption>
-	</figure>
-
-	<figure class="officer">
-		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/alison_walters.jpg" alt="Outreach Chair - Alison Walters"/>
-		<figcaption>
-			<h3 class="officer-name">Alison Walters</h3>
-			<h4 class="officer-position">Outreach Chair</h4>
-			<h4 class="officer-year">Electrical Engineering '21</h4>
-			<h4 class="officer-email">alisonw3@vt.edu</h4>
-		</figcaption>
-	</figure>
-
-	<figure class="officer">
-		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/david_stanley.jpg" alt="Marketing Chair - David Stanley"/>
-		<figcaption>
-			<h3 class="officer-name">David Stanley</h3>
+			<h3 class="officer-name">Alicia Harman</h3>
 			<h4 class="officer-position">Marketing Chair</h4>
-			<h4 class="officer-year">Computer Engineering '21</h4>
-			<h4 class="officer-email">dstan35@vt.edu</h4>
+			<h4 class="officer-year">Electrical Engineering '22</h4>
+			<h4 class="officer-email">aeharma@vt.edu</h4>
 		</figcaption>
 	</figure>
 
 	<figure class="officer">
-		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/havy_pham.jpg" alt="Inclusion Chair - Havy Pham"/>
+		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/afia_habib.jpg" alt="Inclusion Chair - Afia Habib"/>
 		<figcaption>
-			<h3 class="officer-name">Havy Pham</h3>
+			<h3 class="officer-name">Afia Habib</h3>
 			<h4 class="officer-position">Inclusion Chair</h4>
+			<h4 class="officer-year">Electrical Engineering '21</h4>
+			<h4 class="officer-email">afia1@vt.edu</h4>
+		</figcaption>
+	</figure>
+
+	<figure class="officer">
+		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/riya_sareen.jpg" alt="Academic Development Chair - Riya Sareen"/>
+		<figcaption>
+			<h3 class="officer-name">Riya Sareen</h3>
+			<h4 class="officer-position">Academic Development Chair</h4>
 			<h4 class="officer-year">Electrical Engineering '20</h4>
-			<h4 class="officer-email">havypham@vt.edu</h4>
-		</figcaption>
-	</figure>
-
-	<figure class="officer">
-		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/lee_gill.jpg" alt="Grad Student Liaison - Lee Gill"/>
-		<figcaption>
-			<h3 class="officer-name">Lee Gill</h3>
-			<h4 class="officer-position">Grad Student Liaison</h4>
-			<h4 class="officer-year">Graduate</h4>
-			<h4 class="officer-email">leegill@vt.edu</h4>
-		</figcaption>
-	</figure>
-
-	<figure class="officer">
-		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/vineeth_kirandumkara.jpg" alt="Robotics Chair - Vineeth Kirandumkara"/>
-		<figcaption>
-			<h3 class="officer-name">Vineeth Kirandumkara</h3>
-			<h4 class="officer-position">Robotics Chair</h4>
-			<h4 class="officer-year">Computer Engineering '19</h4>
-			<h4 class="officer-email">vineethk@vt.edu</h4>
-		</figcaption>
-	</figure>
-
-	<figure class="officer">
-		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/michael_chalawsky.jpg" alt="Student Advisor - Michael Chalawsky"/>
-		<figcaption>
-			<h3 class="officer-name">Michael Chalawsky</h3>
-			<h4 class="officer-position">Student Advisor</h4>
-			<h4 class="officer-year">Electrical Engineering '19</h4>
-			<h4 class="officer-email">mac9996@vt.edu</h4>
+			<h4 class="officer-email">riyas6@vt.edu</h4>
 		</figcaption>
 	</figure>
 
