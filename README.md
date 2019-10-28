@@ -13,6 +13,7 @@ Setup:
 1. Download, install, and open XAMPP
 2. Click "Start" for Apache in the Control Panel
 3. Navigate to C:/xampp/htdocs/ and clone this repo
-4. Open [localhost/VT-IEEE-Website/](http://localhost/VT-IEEE-Website/) in a webbrowser
+4. Open config.php and change the BASE_URL to dev
+5. Open [localhost/VT-IEEE-Website/](http://localhost/VT-IEEE-Website/) in a webbrowser
 
 The website will get updated with local changes on page refresh.
