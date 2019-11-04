@@ -63,7 +63,7 @@ nav a:hover {
 	transition: .2s;
 }
 
-nav a:after {    
+nav a:after {
 	background: none repeat scroll 0 0 transparent;
 	bottom: 7px;
 	content: '';
@@ -76,7 +76,7 @@ nav a:after {
 	width: 0;
 }
 
-nav a:hover:after { 
+nav a:hover:after {
 	width: 75%;
 	left: 13%;
 }
@@ -266,6 +266,7 @@ main p, main ul {
 	min-width: 230px;
 	max-width: 325px;
 	width: 40%;
+	height: 50%;
 	text-align: center;
 	line-height: 1.4em;
 	font-size: 14px;
@@ -275,10 +276,12 @@ main p, main ul {
 
 .officer .officer-picture {
 	display: inline-block;
-	width: 80%;
+	width: 60%;
+	height: 60%;
 	z-index: 1;
 	position: relative;
 	padding: 10px;
+	margin-bottom: 20px;
 }
 
 .officer-name {
@@ -428,7 +431,7 @@ main p, main ul {
 		width: 30%;
 	}
 
-	.responsive a:hover:after { 
+	.responsive a:hover:after {
 		left: 35%;
 		width: 30%;
 	}
