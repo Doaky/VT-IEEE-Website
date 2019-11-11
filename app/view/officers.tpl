@@ -69,7 +69,7 @@
 		<figcaption>
 			<h3 class="officer-name">Ethan Brooks</h3>
 			<h4 class="officer-position">Activities Co-Chair</h4>
-			<h4 class="officer-year">Electrical Engineering '20</h4>
+			<h4 class="officer-year">Electrical and Computer Engineering '20</h4>
 			<h4 class="officer-email">ethanb98@vt.edu</h4>
 		</figcaption>
 	</figure>
