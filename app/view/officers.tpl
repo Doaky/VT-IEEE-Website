@@ -86,7 +86,7 @@
 	</figure>
 
 	<figure class="officer">
-		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/diana-kim.png" alt="General Officer - Diana Kim"/>
+		<img class="officer-picture" src="<?= BASE_URL ?>/app/public/img/officer_pictures/diana_kim.png" alt="General Officer - Diana Kim"/>
 		<figcaption>
 			<h3 class="officer-name">Diana Kim</h3>
 			<h4 class="officer-position">General Officer</h4>
