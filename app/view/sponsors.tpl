@@ -1,5 +1,5 @@
 <main class="sponsor-page">
-	
+
 	<h1>Become a Sponsor!</h1>
 
 	<hr>
@@ -51,7 +51,7 @@
 	</p>
 
 	<p>
-		Please contact our current External Relations officer, Bailey Spell, at <b><a href="mailto:bspell20@vt.edu" class="text-link">bspell20@vt.edu</a></b>.
+		Please contact our current Industry Relations officer, David Stanley, at <b><a href="mailto:dstan35@vt.edu" class="text-link">dstan35@vt.edu</a></b>.
 	<p>
 
 	<h2>Donating</h2>

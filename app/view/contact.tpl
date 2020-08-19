@@ -1,7 +1,8 @@
 <main class="contact-page">
 
 	<h1>Contact Us</h1>
-
+</br>
+	<h2>Please e-mail us at ieee.virginiatech@gmail.com</h2>
 	<hr>
 		<form name="contact_form" method="post" action="<?= BASE_URL ?>/contact/send/">
 			<!-- Spam Prevention -->
@@ -41,7 +42,6 @@
 		</form>
 
 	<ul class="media-links">
-		<li><a href="mailto:ieee.virginiatech@gmail.com" class="link"><i class="fas fa-envelope"></i> Email</a></li>
 		<li><a href="https://m.me/VTIEEEstudentchapter" target="_blank" class="link"><i class="fab fa-facebook-messenger"></i> Messenger</a></li>
 		<li><a href="https://groups.google.com/a/vt.edu/forum/#!forum/vt-ieee-g/join" target="_blank" class="link"><i class="fab fa-google"></i> Google Group</a></li>
 	</div>
